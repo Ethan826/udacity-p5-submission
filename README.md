@@ -1,14 +1,14 @@
 # Instructions to Udacity reviewer
 
-1. **The IP address and SSH port so your server can be accessed by the reviewer.**
+## The IP address and SSH port so your server can be accessed by the reviewer.
 
 52.33.71.162:2200
 
-2. **The complete URL to your hosted web application.**
+## The complete URL to your hosted web application.
 
 http://ec2-52-33-71-162.us-west-2.compute.amazonaws.com/
 
-3. **A summary of software you installed and configuration changes made.**
+## A summary of software you installed and configuration changes made.
 
 I installed the following packages:
 
@@ -21,10 +21,12 @@ I installed the following packages:
 * python3-pip 
 * python3-psycopg2
 * virtualenv
-* glances
-* fail2ban
+* glances (for the performance-monitoring assignment)
+* fail2ban (for the banning attackers assignment)
 
-4. **A list of any third-party resources you made use of to complete this project.**
+I also wrote a cron script saved at `/home/grader/cronJob.sh` and run by `crontab`.
+
+## A list of any third-party resources you made use of to complete this project.
 
 I consulted numerous StackOverflow answers, the Udacity comment board, Ubuntu, Apache, and Flask documentation, Google, etc. 
 
